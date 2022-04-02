@@ -1,0 +1,8 @@
+---
+- name: Assert create file module
+  hosts: localhost
+  tasks:
+  - name: Create file
+    my_own_namespace.files.my_own_module:
+      path: /tmp/xxx7.txt
+      content: "hello netology2"

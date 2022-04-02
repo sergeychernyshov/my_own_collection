@@ -1,0 +1,4 @@
+---
+# defaults file for my_onw_module_role
+  default_path: "/tmp/default.txt"
+  default_content: "default file content"

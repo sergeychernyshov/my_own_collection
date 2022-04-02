@@ -1,0 +1,6 @@
+---
+# tasks file for my_onw_module_role
+- name  : run create file module
+  my_own_module:
+    path: "{{ default_path }}"
+    content: "{{ default_content }}"
